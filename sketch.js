@@ -506,7 +506,7 @@ function settingsManager()
     push();
     fill(70,35,10); 
     textSize(80);    
-    text("EASY",width*0.18,height*0.30);
+    text("KID",width*0.18,height*0.30);
     text("MODE",width/6,height*0.40);
     textSize(80);
     text("HARD",width*0.18,height*0.65);
