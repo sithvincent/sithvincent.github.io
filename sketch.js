@@ -32,7 +32,7 @@ var motivation;             // the 'motivation' mechanic on hard mode
 var enemies;                // the enemy object array
 var platformIndex;          // the platform which the character is currently on
 var musicCounter;           // controls looping of background music
-var gameLength=10;          // Freely change this value to set how long you play before you reach flagpole. EVERYTHING will scale with it.
+var gameLength=13;          // Freely change this value to set how long you play before you reach flagpole. EVERYTHING will scale with it.
 
 
 // 'STATE' VARIABLES (TRUE & FALSE VALUES)
@@ -509,7 +509,7 @@ function settingsManager()
     text("EASY",width*0.18,height*0.30);
     text("MODE",width/6,height*0.40);
     textSize(80);
-    text("HARD",width*0.18,height*0.65);
+    text("ANGEL",width*0.18,height*0.65);
     text("MODE",width/6,height*0.75);
     fill(70,35,10);
     textSize(25);
