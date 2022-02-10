@@ -509,7 +509,7 @@ function settingsManager()
     text("EASY",width*0.18,height*0.30);
     text("MODE",width/6,height*0.40);
     textSize(80);
-    text("ANGEL",width*0.18,height*0.65);
+    text("ANGEL",width*0.16,height*0.65);
     text("MODE",width/6,height*0.75);
     fill(70,35,10);
     textSize(25);
@@ -778,6 +778,7 @@ function Enemy (x,y,range)
     this.eyeColour=random(150,255)      // eye colour
     this.skullColour=random(40,100)     // skull colour
     this.currentX=x;                    // the actual x position of the enemy
+    this.currentY=y;
     this.speed=1;                       // variable for enemy speed. '1' is just placeholder
     this.updatePosition = 
         function()
@@ -797,7 +798,8 @@ function Enemy (x,y,range)
                 {
                     this.speed = 1;
                 } 
-            }            
+            }   
+                     
         }
     this.draw = 
         function()
